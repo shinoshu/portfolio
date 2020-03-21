@@ -6,9 +6,10 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from '@app/material';
 
 import { AppComponent } from '@app/core/containers';
+import { AccountComponent } from './components/account/account.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, AccountComponent],
   imports: [CommonModule, RouterModule, FlexLayoutModule, MaterialModule],
 })
 export class CoreModule {}
