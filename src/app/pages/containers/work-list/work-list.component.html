@@ -1,3 +1,5 @@
-<ng-container *ngFor="let work of workList">
-  <app-work [work]="work"></app-work>
-</ng-container>
+<div fxLayout="row wrap" fxLayoutAlign="space-between">
+  <ng-container *ngFor="let work of workList">
+    <app-work [work]="work"></app-work>
+  </ng-container>
+</div>
