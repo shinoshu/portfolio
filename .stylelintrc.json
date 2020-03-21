@@ -1,6 +1,14 @@
 {
   "extends": "stylelint-config-standard",
+  "plugins": [
+    "stylelint-order"
+  ],
   "rules": {
-    "selector-type-no-unknown": null
+    "selector-type-no-unknown": null,
+    "order/order": [
+      "custom-properties",
+      "declarations"
+    ],
+    "order/properties-alphabetical-order": true
   }
 }
