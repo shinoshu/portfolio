@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ProfileComponent } from './containers/profile/profile.component';
+
+import { ProfileComponent } from '@app/pages/containers';
 
 @NgModule({
   declarations: [ProfileComponent],
