@@ -7,6 +7,10 @@ import { WorkListComponent } from '@app/pages/containers';
 
 const routes: Routes = [
   {
+    path: '',
+    redirectTo: 'profile',
+  },
+  {
     path: 'profile',
     component: ProfileComponent,
   },
