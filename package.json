@@ -47,6 +47,7 @@
     "protractor": "~5.4.3",
     "stylelint": "^13.2.1",
     "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
     "typescript": "~3.7.5"
