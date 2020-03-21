@@ -11,6 +11,7 @@ import { ProfileComponent } from '@app/pages/containers';
 import { WorkListComponent } from '@app/pages/containers';
 import { WorkComponent } from './components/work/work.component';
 import { SkillsComponent } from './containers/skills/skills.component';
+import { ContactDialogComponent } from './components/contact-dialog/contact-dialog.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { SkillsComponent } from './containers/skills/skills.component';
     WorkListComponent,
     WorkComponent,
     SkillsComponent,
+    ContactDialogComponent,
   ],
   imports: [
     CommonModule,
