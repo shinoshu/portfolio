@@ -6,10 +6,10 @@ import { MaterialModule } from '@app/material';
 import { PagesRoutingModule } from '@app/pages/pages-routing.module';
 
 import { ProfileComponent } from '@app/pages/containers';
-import { WorkComponent } from './containers/work/work.component';
+import { WorkListComponent } from '@app/pages/containers';
 
 @NgModule({
-  declarations: [ProfileComponent, WorkComponent],
+  declarations: [ProfileComponent, WorkListComponent],
   imports: [CommonModule, FlexLayoutModule, MaterialModule, PagesRoutingModule],
 })
 export class PagesModule {}
