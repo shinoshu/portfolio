@@ -14,10 +14,11 @@ export class ProfileComponent implements OnInit {
 
   ngOnInit() {
     this.firstFormGroup = this.formBuilder.group({
-      firstCtrl: ['', Validators.required],
+      firstName: ['Shuma', Validators.required],
+      lastName: ['Shinozaki', Validators.required],
     });
     this.secondFormGroup = this.formBuilder.group({
-      secondCtrl: ['', Validators.required],
+      email: ['', Validators.required],
     });
   }
 }
