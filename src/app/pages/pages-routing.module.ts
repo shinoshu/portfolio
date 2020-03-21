@@ -14,14 +14,6 @@ const routes: Routes = [
     path: 'profile',
     component: ProfileComponent,
   },
-  {
-    path: 'skills',
-    component: SkillsComponent,
-  },
-  {
-    path: 'work',
-    component: WorkListComponent,
-  },
 ];
 
 @NgModule({
