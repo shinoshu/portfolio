@@ -8,9 +8,15 @@ import { PagesRoutingModule } from '@app/pages/pages-routing.module';
 import { ProfileComponent } from '@app/pages/containers';
 import { WorkListComponent } from '@app/pages/containers';
 import { WorkComponent } from './components/work/work.component';
+import { SkillsComponent } from './containers/skills/skills.component';
 
 @NgModule({
-  declarations: [ProfileComponent, WorkListComponent, WorkComponent],
+  declarations: [
+    ProfileComponent,
+    WorkListComponent,
+    WorkComponent,
+    SkillsComponent,
+  ],
   imports: [CommonModule, FlexLayoutModule, MaterialModule, PagesRoutingModule],
 })
 export class PagesModule {}
