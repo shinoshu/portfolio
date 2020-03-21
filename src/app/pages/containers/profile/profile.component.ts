@@ -7,7 +7,6 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./profile.component.scss'],
 })
 export class ProfileComponent implements OnInit {
-  isLinear = false;
   firstFormGroup?: FormGroup;
   secondFormGroup?: FormGroup;
 
