@@ -6,7 +6,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from '@app/material';
 
 import { AppComponent } from '@app/core/containers';
-import { AccountComponent } from './components/account/account.component';
+import { AccountComponent } from '@app/core/components';
 
 @NgModule({
   declarations: [AppComponent, AccountComponent],
