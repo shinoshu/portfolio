@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { MaterialModule } from '@app/material';
 import { PagesRoutingModule } from '@app/pages/pages-routing.module';
@@ -17,6 +18,13 @@ import { SkillsComponent } from './containers/skills/skills.component';
     WorkComponent,
     SkillsComponent,
   ],
-  imports: [CommonModule, FlexLayoutModule, MaterialModule, PagesRoutingModule],
+  imports: [
+    CommonModule,
+    FlexLayoutModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MaterialModule,
+    PagesRoutingModule,
+  ],
 })
 export class PagesModule {}
